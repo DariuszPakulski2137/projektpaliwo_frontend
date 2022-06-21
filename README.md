@@ -1,1 +1,1 @@
-# projektpaliwo_frontend
+# Frontend w React do aplikacji paliwowej
