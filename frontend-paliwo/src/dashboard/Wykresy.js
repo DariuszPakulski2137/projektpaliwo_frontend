@@ -1,3 +1,5 @@
+import Chart from "./chart";
+
 export function przetworzDaneNaSumeZakupow(json) {
   var jsonDaty = {};
   console.log(json["rachunki"]);
@@ -119,7 +121,7 @@ function WygenerujWykresy() {
     .then((resp) => resp.json())
     .then((resp) => {
       console.log(resp);
-      /*const config = stworzConfigNaSumeZakupowDlaDat(resp);
+      const config = stworzConfigNaSumeZakupowDlaDat(resp);
       new Chart(document.getElementById("myChart"), config);
       const daneSprzedawcow = przetworzDaneNaSprzedawcowZakupow(resp);
 
@@ -160,7 +162,7 @@ function WygenerujWykresy() {
           newRow.appendChild(tdSeller);
           newRow.appendChild(tdIleRazy);
         }
-      }*/
+      }
     });
 }
 
