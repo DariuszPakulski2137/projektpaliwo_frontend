@@ -78,7 +78,7 @@ export default function Logowanie() {
             </form>
             <div class="form-group">
               <span>
-                Nowy użytkownik? <a href="/registration">Rejestracja</a>
+                Nowy użytkownik? <a href="/registration">Zarejestruj się</a>
               </span>
             </div>
           </div>
